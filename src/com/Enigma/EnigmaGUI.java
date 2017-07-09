@@ -75,7 +75,7 @@ public class EnigmaGUI{
                 }
             }
         });
-        
+
         inputTextField.setBorder(javax.swing.BorderFactory.createEmptyBorder());
         outputTextField.setBorder(javax.swing.BorderFactory.createEmptyBorder());
         inputTextPane.setBorder(javax.swing.BorderFactory.createLineBorder(Color.DARK_GRAY));
