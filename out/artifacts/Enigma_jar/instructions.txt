@@ -1,0 +1,8 @@
+Instructions:
+The first line of the file must set the initial settings for the Enigma Machine.
+
+Format of first line:
+* (Umkehrwalzen reflector) (Zusatzwalzen reflector) (rotor 1) (rotor 2) (rotor 3) (any four letters)
+Example: * B BETA III IV I AXLE
+
+

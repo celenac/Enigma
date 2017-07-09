@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="com.Enigma.EnigmaGUI">
+  <grid id="27dc6" binding="panel1" default-binding="true" layout-manager="GridLayoutManager" row-count="8" column-count="2" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="40" left="0" bottom="40" right="40"/>
+    <constraints>
+      <xy x="20" y="20" width="1127" height="700"/>
+    </constraints>
+    <properties>
+      <background color="-4550608"/>
+      <doubleBuffered value="true"/>
+      <enabled value="true"/>
+      <font size="18" style="1"/>
+      <minimumSize width="374" height="500"/>
+      <preferredSize width="1000" height="700"/>
+      <requestFocusEnabled value="true"/>
+    </properties>
+    <border type="line">
+      <color color="-394759"/>
+    </border>
+    <children>
+      <component id="74b67" class="javax.swing.JTextField" binding="titleTextField">
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="6" anchor="0" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="517" height="108"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-4550608"/>
+          <editable value="false"/>
+          <font name="Rockwell Condensed" size="38" style="1"/>
+          <horizontalAlignment value="0"/>
+          <text value="Enigma Machine (M4) Simulator"/>
+        </properties>
+      </component>
+      <component id="8f3a" class="javax.swing.JTextField" binding="inputTextField" default-binding="true">
+        <constraints>
+          <grid row="6" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="2" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="300" height="30"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-4550608"/>
+          <editable value="false"/>
+          <enabled value="true"/>
+          <focusable value="true"/>
+          <font name="Rockwell Condensed" size="18" style="1"/>
+          <horizontalAlignment value="0"/>
+          <text value="Input"/>
+        </properties>
+      </component>
+      <component id="bc2b6" class="javax.swing.JTextField" binding="outputTextField" default-binding="true">
+        <constraints>
+          <grid row="6" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="2" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-4550608"/>
+          <editable value="false"/>
+          <enabled value="true"/>
+          <font name="Rockwell Condensed" size="18" style="1"/>
+          <horizontalAlignment value="0"/>
+          <text value="Output"/>
+        </properties>
+      </component>
+      <grid id="1d011" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="0" left="0" bottom="0" right="0"/>
+        <constraints>
+          <grid row="7" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false">
+            <preferred-size width="300" height="300"/>
+            <maximum-size width="300" height="300"/>
+          </grid>
+        </constraints>
+        <properties/>
+        <border type="none"/>
+        <children>
+          <scrollpane id="9e940">
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="7" hsize-policy="7" anchor="0" fill="3" indent="0" use-parent-layout="false">
+                <maximum-size width="300" height="300"/>
+              </grid>
+            </constraints>
+            <properties/>
+            <border type="none"/>
+            <children>
+              <component id="f2680" class="javax.swing.JTextPane" binding="inputTextPane">
+                <constraints/>
+                <properties>
+                  <background color="-11645362"/>
+                  <font name="DialogInput"/>
+                  <foreground color="-723724"/>
+                  <minimumSize width="6" height="23"/>
+                  <preferredSize width="300" height="300"/>
+                  <text value="* B BETA IV II I AXLE"/>
+                </properties>
+              </component>
+            </children>
+          </scrollpane>
+        </children>
+      </grid>
+      <grid id="cde36" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="0" left="0" bottom="0" right="0"/>
+        <constraints>
+          <grid row="7" column="1" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="200"/>
+            <maximum-size width="300" height="300"/>
+          </grid>
+        </constraints>
+        <properties/>
+        <border type="none"/>
+        <children>
+          <scrollpane id="edc21">
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="7" hsize-policy="7" anchor="0" fill="3" indent="0" use-parent-layout="false">
+                <maximum-size width="300" height="300"/>
+              </grid>
+            </constraints>
+            <properties/>
+            <border type="none"/>
+            <children>
+              <component id="5b2c5" class="javax.swing.JTextPane" binding="outputTextPane">
+                <constraints/>
+                <properties>
+                  <background color="-11645362"/>
+                  <font name="DialogInput"/>
+                  <foreground color="-723724"/>
+                  <preferredSize width="300" height="300"/>
+                  <text value=""/>
+                </properties>
+              </component>
+            </children>
+          </scrollpane>
+        </children>
+      </grid>
+      <component id="77f73" class="javax.swing.JTextPane" binding="rotorsTextPane">
+        <constraints>
+          <grid row="2" column="0" row-span="4" col-span="1" vsize-policy="6" hsize-policy="6" anchor="0" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="300" height="23"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-4550608"/>
+          <editable value="false"/>
+          <font name="Georgia" size="14" style="1"/>
+        </properties>
+      </component>
+      <component id="dc7c4" class="javax.swing.JTextPane" binding="descriptionTextPane">
+        <constraints>
+          <grid row="1" column="0" row-span="1" col-span="2" vsize-policy="6" hsize-policy="6" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-4550608"/>
+          <editable value="false"/>
+          <font name="Georgia" size="14" style="1"/>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="ea33b" class="javax.swing.JButton" binding="button1" default-binding="true">
+        <constraints>
+          <grid row="2" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="2" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Choose File"/>
+        </properties>
+      </component>
+      <component id="51a8d" class="javax.swing.JTextField" binding="fileSelectedTextField" default-binding="true">
+        <constraints>
+          <grid row="3" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="1" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="300" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-4550608"/>
+          <disabledTextColor color="-15000805"/>
+          <editable value="false"/>
+          <font size="14" style="2"/>
+          <text value="File selected: "/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+</form>
